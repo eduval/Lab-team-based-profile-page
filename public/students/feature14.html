@@ -1,1 +1,134 @@
-Gonzalo Gallo
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonzalo's Favorite Sport "Boxing"</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+        p {
+            font-family: 'Roboto', sans-serif; 
+            width: 100%; /* El texto ocupará el 100% del ancho */
+            margin-left: 0; 
+            margin-right: auto; 
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            grid-gap: 20px; 
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto; 
+        }
+
+        .left, .right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .box {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .images-container {
+            display: flex; /* Flexbox para alinear las imágenes horizontalmente */
+            gap: 10px; /* Espacio entre las imágenes */
+        }
+
+        .images-container img {
+            width: 45%; /* Establecer un ancho para que las imágenes no sean demasiado grandes */
+            height: auto; /* Mantener la relación de aspecto */
+        }
+
+    </style>
+
+<link rel="shortcut icon" href="/Favicon.png" type="image/png">
+
+</head>
+<body>
+    <h1>Gonzalo's Favorite Sport "Boxing"</h1>
+    
+    <div class="container">
+        <!-- Columna izquierda -->
+        <div class="left">
+            <div class="box">
+                <p class="section-title">History of boxing:</p>
+                <p>Boxing has ancient origins, dating back to around 3,000 BC in Egypt. It became an organized sport in the Ancient Greek Olympic Games in 688 BC. In the 17th century, modern boxing (or "prizefighting") emerged in England, 
+                    originally without gloves and few rules. The sport was formalized in 1867 with the Marquess of Queensberry Rules, introducing gloves and timed rounds.
+                    <br>Throughout the 20th century, boxing gained global popularity with stars like Muhammad Ali, Mike Tyson and Canelo Alvarez. Today, it is a well-regulated combat sport with weight divisions and worldwide championships.</p>
+                
+                <div class="images-container">
+                    <img src="https://www.sikids.com/.image/t_share/MTY4Mjg2NTcxOTk4NTUzMzY1/boxing-history-article1jpg.jpg" alt="History of boxing">
+                    <img src="https://www.si.com/.image/t_share/MTY4MTkyMTgxMjI4MzQ5MzQx/muhammad-ali-legacy-2jpg.jpg" alt="History of boxing 2">
+                </div>
+            </div>
+
+            <div class="box">
+                <p class="section-title">Personal experience:</p>
+                <p>I started boxing at 15, inspired by watching Canelo Alvarez defeat bigger opponents. His performances motivated me, as I’ve always been on the smaller side. Training box has instilled in me a strong sense of discipline and helped me develop more patience in life.<br>
+                    My first sparring sessions were challenging; nerves would make me tire quickly and feel uncomfortable in the ring. However, as I continued practicing, I became more relaxed and skilled. Competing for the first time was one of the best experiences of my life, as I felt immensely confident fighting someone my size, thanks to the training and sparring with bigger and more experienced fighters at my gym.<br>
+                    In conclusion, boxing has profoundly shaped my outlook and personality. It has made me more patient, self-assured, and focused, teaching me valuable lessons about resilience and determination that extend beyond the ring.</p>
+                <img src="/foto2.jpeg" alt="Personal experience">
+            </div>
+        </div>
+
+        <!-- Columna derecha -->
+        <div class="right">
+            <div class="box">
+                <p class="section-title">Benefits of boxing:</p>
+                <ul>
+                    <li>Physical Fitness: Boxing is a great workout that boosts your strength and endurance.</li>
+                    <li>Self-Defense: It teaches valuable self-defense skills to help you feel safer and confident.</li>
+                    <li>Discipline: To improve, you need to train, which requires commitment, helping you develop discipline and focus.</li>
+                    <li>Stress Relief: After a tough day, hitting the bag is the perfect way to release stress and frustrations.</li>
+                    <li>Confidence: Improving your skills and fitness boosts your self-esteem, positively affecting other aspects of your life.</li>
+                    <li>Weight Management: Regular training helps maintain a healthy weight.</li>
+                </ul>
+                <img src="https://media.gq.com.mx/photos/62260688408208416bcc43c2/16:9/w_2560%2Cc_limit/kickboxing%2520saco.jpg" alt="Benefits of boxing">
+            </div>
+
+            <div class="box">
+                <p class="section-title">Anecdotes:</p>
+                 <p>One of my most memorable experiences in boxing was during my amateur career, where I had the chance to fight four times, winning three of those matches. The one match I lost was incredibly close, and I genuinely thought I had done enough to win. It was a tough learning experience, but it taught me the importance of perseverance.</p>
+
+                <p>Two of my victories stood out in particular. One match ended with a knockout from a perfectly timed liver shot that I'll never forget. The feeling of landing that punch and seeing my opponent drop was exhilarating.</p>
+
+                <p>Boxing also opened doors to other martial arts like Muay Thai, Jiu-Jitsu, and the sport that I now practice and enjoy: MMA (Mixed Martial Arts), which involves all classes of strikes and submissions.</p>
+
+                <p>Beyond the fights themselves, boxing has introduced me to some amazing people. Training alongside fellow fighters has created a sense of brotherhood that makes the journey even more enjoyable. Overall, my boxing journey has been a blend of excitement, hard work, and fun, filled with valuable lessons both inside and outside the ring.</p>
+                <img src="/foto4.jpeg" alt="Anecdotes">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
